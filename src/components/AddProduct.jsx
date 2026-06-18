@@ -59,7 +59,7 @@ const handleSubmit = async (event) => {
                 placeholder="Nhập tên sản phẩm.."
             />
             <Form.Control.Feedback type="invalid">
-                Ten khong de trong
+               Tên không để trống!
             </Form.Control.Feedback>
         </Form.Group>
 
@@ -76,7 +76,7 @@ const handleSubmit = async (event) => {
                 placeholder="Nhập giá.."
             />
             <Form.Control.Feedback type="invalid">
-                nhap gia la so
+                Giá phải là số!
             </Form.Control.Feedback>
         </Form.Group>
 
@@ -92,7 +92,7 @@ const handleSubmit = async (event) => {
                 placeholder="Nhập URL hình ảnh.."
             />
             <Form.Control.Feedback type="invalid">
-                Please enter image URL
+                Vui lòng nhập URL hình ảnh!
             </Form.Control.Feedback>
         </Form.Group>
 
@@ -113,7 +113,7 @@ const handleSubmit = async (event) => {
                 ))}
             </Form.Select>
             <Form.Control.Feedback type="invalid">
-                Please select category
+                Vui lòng chọn danh mục!
             </Form.Control.Feedback>
         </Form.Group>
         </div>
