@@ -47,7 +47,7 @@ const handleSubmit = async (event) => {
     <h2>Add a new Product</h2>
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <div style={{ maxWidth: 600 }}>
-        {/* 1. Trường nhập Name (image_f138dd.png) */}
+        
         <Form.Group className="mb-3">
             <Form.Label>Name:</Form.Label>
             <Form.Control 
@@ -63,7 +63,7 @@ const handleSubmit = async (event) => {
             </Form.Control.Feedback>
         </Form.Group>
 
-        {/* 2. Trường nhập Price (image_f138be.png) */}
+      
         <Form.Group className="mb-3">
             <Form.Label>Price</Form.Label>
             <Form.Control
@@ -80,7 +80,7 @@ const handleSubmit = async (event) => {
             </Form.Control.Feedback>
         </Form.Group>
 
-        {/* 3. Trường nhập Image URL (image_f138a1.png) */}
+       
         <Form.Group className="mb-3">
             <Form.Label>Image URL</Form.Label>
             <Form.Control
@@ -96,7 +96,7 @@ const handleSubmit = async (event) => {
             </Form.Control.Feedback>
         </Form.Group>
 
-        {/* 4. Trường chọn Category (image_f13884.png) */}
+       
         <Form.Group className="mb-3">
             <Form.Label>Category</Form.Label>
             <Form.Select
@@ -118,7 +118,7 @@ const handleSubmit = async (event) => {
         </Form.Group>
         </div>
 
-        {/* 5. Nút submit và đóng Form (image_f13861.png) */}
+      
         <Button style={{ width: 200 }} className="mt-4" variant="success" type="submit">
             ADD
         </Button>
